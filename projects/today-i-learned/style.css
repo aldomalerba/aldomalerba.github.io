@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color: teal
+}
+
+.list{
+    list-style: none;
+}

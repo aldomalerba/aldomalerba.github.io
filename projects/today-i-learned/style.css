@@ -1,5 +1,6 @@
 body{
     font-family: Arial, sans-serif;
+    letter-spacing: 1px;
 }
 
 .container{
@@ -13,5 +14,23 @@ body{
 }
 
 .list{
+    padding: 0;
+    list-style-type: none;
+}
+
+.list-item{
     list-style: none;
+    border: transparent solid 1px;
+    padding: 1em;
+    margin: 1rem;
+ }
+
+.list-item:hover{
+   border: teal solid 1px;
+   cursor: pointer;
+}
+
+.list-item-title{
+    font-weight: bold;
+    color: teal;
 }

@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+    background-color: #282a36;
+    color: #f8f8f2;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.author{
+    text-align: center;
+}
+
+.author-name{
+    font-size: 3.5rem;
+}
+
+.author-job{
+    font-size: 1.5rem;
+}
